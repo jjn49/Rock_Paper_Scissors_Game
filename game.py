@@ -42,3 +42,4 @@ elif user_choice == "scissors":
         print("The computer wins.")
     else:
         print("The user wins.")
+print("Thanks for playing! Play Again!")
