@@ -8,8 +8,12 @@ print("Rock, Paper, Scissors, Shoot!")
 
 #x = input("Choose 'rock' or 'paper' or 'scissors'")
 user_choice = input("Choose 'rock' or 'paper' or 'scissors':")
-print("User chose:")
-print(user_choice)
+if user_choice in ["rock", "paper", "scissors"]:
+    print("User chose:")
+    print(user_choice)
+else:
+    print("Choice not valid. Try again")
+    exit()
 
 # Computer Choice (At Random)
 
