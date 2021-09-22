@@ -18,3 +18,23 @@ options = ["rock", "paper", "scissors"]
 computer_choice = random.choice(options)
 print("Computer chose:")
 print(computer_choice)
+
+# Code used from Fenny on slack
+
+if user_choice == computer_choice:
+    print("Tie. There is no winner.")
+elif user_choice == "rock":
+    if computer_choice == "paper":
+        print("The computer wins.")
+    else:
+        print("The user wins.")
+elif user_choice == "paper":
+    if computer_choice == "scissors":
+        print("The computer wins.")
+    else:
+        print("The user wins.")
+elif user_choice == "scissors":
+    if computer_choice == "rock":
+        print("The computer wins.")
+    else:
+        print("The user wins.")
