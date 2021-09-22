@@ -2,6 +2,7 @@
 
 import random
 
+print("Welcome 'Player One' to Rock-Paper-Scissors!")
 print("Rock, Paper, Scissors, Shoot!")
 
 # Prompt User for Input
